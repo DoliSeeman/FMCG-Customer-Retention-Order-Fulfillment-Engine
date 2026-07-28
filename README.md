@@ -32,3 +32,17 @@ The project completely bypasses traditional monolithic BI architectures, deployi
 *   **[Supabase](https://supabase.com):** The open-source Firebase alternative utilized as our secure cloud backend host to provision, scale, and manage our managed relational PostgreSQL database warehouse.
 *   **[PostgreSQL](https://postgresql.org):** Serves as the core relational database storage engine housing our analytical schemas.
 *   **[Quadratic](https://quadratichq.com):** An infinite, collaborative cloud spreadsheet workspace housing live database connection integrations, embedded Python/SQL runtimes, and conversational AI generation.
+
+
+
+## 📊 Project Visuals & Live Dashboard 
+
+### 1. Automated Data Pipeline (n8n Workspace)
+The following automation layout showcases the backend execution strategy. The sequence polls incoming regional distribution email triggers, extracts daily data payloads, normalizes metrics, and updates our cloud tables simultaneously:
+
+![n8n Production Workflow Layout](./n8n-workflow.png)
+
+### 2. Interactive Analytical Dashboard (Quadratic AI Canvas)
+The live canvas interfaces with our cloud data warehouse. This view features our core Service Level Agreement (SLA) calculations—specifically monitoring **On-Time (OT%)**, **In-Full (IF%)**, and **On-Time In-Full (OTIF%)** performance tracks against customer-specific contractual targets:
+
+![Quadratic Interactive KPI Dashboard](./quadratic-dashboard.png)
