@@ -4,7 +4,7 @@ An automated, AI-driven backend data pipeline and modern analytical sheet enviro
 
 ---
 
-## 📋 Problem Statement (0:53)
+## 📋 Problem Statement 
 AtliQ Mart, a fast-growing Fast-Moving Consumer Goods (FMCG) manufacturer based in Gujarat, India, currently operates across Surat, Ahmedabad, and Vadodara with immediate plans to expand into Tier 1/metro cities. 
 
 However, the company faces a critical roadblock: **several major, high-value customers have refused to renew their annual commercial contracts** due to severe delivery service issues. Essential shipments are frequently arriving either late or incomplete. To rescue these contracts and secure expansion, management requires a robust tracking architecture to monitor three core Service Level Agreements (SLAs) daily against rigid, customer-specific targets:
@@ -14,7 +14,7 @@ However, the company faces a critical roadblock: **several major, high-value cus
 
 ---
 
-## 🏗️ Technical Architecture (3:18)
+## 🏗️ Technical Architecture 
 The project completely bypasses traditional monolithic BI architectures, deploying a modern, event-driven data pipeline combined with an AI-integrated infinite-canvas spreadsheet ecosystem:
 
 ```text
